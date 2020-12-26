@@ -1,0 +1,55 @@
+
+body{
+    font-family: 'Playfair Display', 'Helvetica Neue', sans-serif !important;
+}
+.contents{
+    padding-top: 10rem;
+}
+.wrappers{
+    margin-top: 8rem;
+    text-align: center;
+}
+.title h3{
+    color: #000;
+}
+.list .img img{
+    width: 100%;
+}
+.item{
+    overflow: hidden;
+    margin: 6rem 0;
+    border-radius: 10px;
+    box-shadow: 0 0 0px 2px #ccc;
+}
+.icon{
+    width: 1.4rem;
+    transition: .33s ease;
+}
+.icon:hover{
+    filter: brightness(0.5);
+}
+.new-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-header h3{
+    margin: 0;
+    margin-left: -10rem;
+    text-transform: none;
+}
+.titles{
+    position: fixed;
+    top: 11rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.titles h3{
+    font-size: 14px !important;
+}
+.list{
+}
+.list{
+    margin: 0 auto;
+    width: 70%;
+}
