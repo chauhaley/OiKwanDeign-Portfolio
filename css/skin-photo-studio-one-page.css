@@ -1935,7 +1935,7 @@ body,
 	background-image: url(../images/photo-studio/generic/hero-half-1.jpg);
 }
 .hero-5-2 .media-column{
-	background-image: url(../images/static/head.jpg);
+	background-image: url(../images/static/head.jpg) !important; 
 }
 .hero-5-3 .media-column{
 	background: #9A712E;
