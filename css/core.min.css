@@ -5,13 +5,14 @@
     -webkit-backface-visibility: hidden
 }
 
-.shade{
+.shade {
     width: 100%;
     height: 100%;
     background-color: #333;
     opacity: .3;
     position: absolute;
 }
+
 .wrapper-inner,
 body,
 html {
@@ -9648,7 +9649,8 @@ textarea {
 .masonry-set-dimensions .grid-item {
     overflow: hidden
 }
-.over-show{
+
+.over-show {
     overflow: inherit !important;
 }
 
@@ -11610,6 +11612,18 @@ only screen and (min-resolution:2dppx) {
     .hero-5.show-media-column-on-mobile .media-column iframe,
     .hero-5.show-media-column-on-mobile .media-column video {
         height: 40rem
+    }
+
+    .reset {
+        height: 5rem !important;
+    }
+
+    .contact {
+        top: -37px;
+    }
+
+    #head  {
+        background-image: url(../images/static/head2.jpg) !important;
     }
 
     .hero-5 .media-column .split-hero-content {
