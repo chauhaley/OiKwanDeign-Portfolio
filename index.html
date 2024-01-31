@@ -56,7 +56,7 @@
 					</ul>
 				</nav>
 				<div class="side-navigation-footer center">
-					<p class="copyright no-margin-bottom">&copy; 2020 OiKwan Design. All Rights Reserved.</p>
+					<p class="copyright no-margin-bottom">&copy; 2024 OiKwan Design. All Rights Reserved.</p>
 				</div> 
 			</div>
 		</div>
@@ -131,7 +131,7 @@
 												<h1 class="tms-caption color-white title-medium lspacing-xlarge text-uppercase weight-bold mb-10"
 													data-animate-in="preset:slideInLeftShort;duration:600ms;delay:100ms;"
 													data-no-scale>
-													Chau Oi Kwan Haley
+													Oi Kwan Haley
 												</h1>
 												<div class="clear"></div>
 												<hr class="tms-caption border-white mt-0 mb-10" style="width:68%;"
@@ -164,25 +164,7 @@
 				<!-- About -->
 				<section id="about" class="section-block no-padding">
 
-					<!-- Hero 5 Section -->
-					<div class="section-block hero-5 hero-5-2 clear-height show-media-column-on-mobile bkg-theme">
-						<div class="media-column width-4" id="head"></div>
-						<div class="row">
-							<div class="column width-8 offset-4 color-white">
-								<div class="hero-content split-hero-content">
-									<div class="hero-content-inner left">
-										<h3>Introduction</h3>
-										<p class="mb-50 lead opacity-05">Hi, my name is Haley Chau and I’m a Graphic
-											Designer who is passionate in exploring and
-											experiencing different art forms and cultures, seeking for
-											learning opportunities to excel in performing art. </p>
-										<p class="weight-bold">Chau Oi Kwan Haley-Graphic Desgner</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Hero 5 Section End -->
+
 
 					<!-- Fullscreen Sections -->
 
@@ -547,13 +529,78 @@
 					<!-- Portfolio Grid End -->
 
 				</div>
+
+				<style>
+					.hero-content-inner .lead {
+					  display: -webkit-box;
+					  -webkit-line-clamp: 3; /* Limit the paragraph to 3 lines */
+					  -webkit-box-orient: vertical;
+					  overflow: hidden;
+					}
+				  </style>
+				  
+				  
+  
+  <!-- Hero 5 Section -->
+  <style>
+	.hero-content-inner .lead {
+	  display: -webkit-box;
+	  -webkit-line-clamp: 3; /* Limit the paragraph to 3 lines */
+	  -webkit-box-orient: vertical;
+	  overflow: hidden;
+	  line-height: 1.2;
+	}
+  
+	.hero-content-inner .lead.responsive {
+	  white-space: normal;
+	}
+  </style>
+  
+  <!-- Hero 5 Section -->
+  <div class="section-block hero-5 hero-5-2 clear-height show-media-column-on-mobile bkg-theme">
+	<!-- <div class="media-column width-4" id="head"></div> -->
+	<div class="row">
+	  <div class="column width-8 offset-2 color-white">
+		<div class="hero-content split-hero-content">
+		  <div class="hero-content-inner text-center">
+			<h3>Introduction</h3>
+			<p class="mb-50 lead opacity-05">I’m a Graphic
+			  Designer who is passionate in exploring and
+			  experiencing different art forms and cultures, seeking for
+			  learning opportunities to excel in performing art.</p>
+			<p class="weight-bold">Chau Oi Kwan Haley-Graphic Desgner</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+  <script>
+	function checkParagraphHeight() {
+	  var paragraph = document.querySelector('.hero-content-inner .lead');
+	  var isOverflowed = paragraph.scrollHeight > paragraph.clientHeight;
+  
+	  if (isOverflowed) {
+		paragraph.classList.add('responsive');
+	  } else {
+		paragraph.classList.remove('responsive');
+	  }
+	}
+  
+	window.addEventListener('load', checkParagraphHeight);
+	window.addEventListener('resize', checkParagraphHeight);
+  </script>
+  
+
+					
+
 				<!-- Portfolio Section End -->
 
 				<!-- Blog -->
 				<!-- Blog End -->
 
 				<!-- Hero 5 Section -->
-				<section id="contact"
+				<!-- <section id="contact"
 					class="section-block hero-5 hero-5-3 clear-height show-media-column-on-mobile replicable-content bkg-white">
 					<div class="media-column width-4 reset"></div>
 					<div class="row">
@@ -615,7 +662,7 @@
 						</div>
 					</div>
 				</section>
-			</div>
+			</div> -->
 			<!-- Content End -->
 
 			<!-- Footer -->
