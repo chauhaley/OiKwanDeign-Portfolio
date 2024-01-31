@@ -41,7 +41,9 @@ Copyright: ThemeMountain
 /*------------------------------------------------------------------
 [1. Typography]
 */
-
+.d-none{
+	display: none !important;
+}
 body{
 	font-family: 'Playfair Display', 'Helvetica Neue', sans-serif;
 	letter-spacing: 0rem;
@@ -299,7 +301,7 @@ p a:hover,
 .footer .navigation a:hover,
 .footer .social-list a:hover,
 .footer .footer-bottom a:hover{
-	color: #304cd1;
+	color: #99712e;
 }
 a[class*="icon-"]:hover{
 	text-decoration: none;
